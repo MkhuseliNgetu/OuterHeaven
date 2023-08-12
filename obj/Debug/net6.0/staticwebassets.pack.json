@@ -17,24 +17,76 @@
       "PackagePath": "staticwebassets\\Font's\\porter-sans-inline-block.otf"
     },
     {
-      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\HomeImage(Alphabet).jpg",
-      "PackagePath": "staticwebassets\\Images\\HomeImage(Alphabet).jpg"
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Belts (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Belts (Default).jpg"
     },
     {
-      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\HomeImage(Female).jpg",
-      "PackagePath": "staticwebassets\\Images\\HomeImage(Female).jpg"
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Boots (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Boots (Default).jpg"
     },
     {
-      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\HomeImage(FemaleMale).jpg",
-      "PackagePath": "staticwebassets\\Images\\HomeImage(FemaleMale).jpg"
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Glasses (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Glasses (Default).jpg"
     },
     {
-      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\HomeImage(Male).jpg",
-      "PackagePath": "staticwebassets\\Images\\HomeImage(Male).jpg"
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Hats (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Hats (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Heels (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Heels (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Pants (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Pants (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Perfume (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Perfume (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Shirts (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Shirts (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Sneakers (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Sneakers (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Watches (Default).jpg",
+      "PackagePath": "staticwebassets\\Images\\Default Item Images\\Watches (Default).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Home Page Images\\HomeImage(Alphabet).jpg",
+      "PackagePath": "staticwebassets\\Images\\Home Page Images\\HomeImage(Alphabet).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Home Page Images\\HomeImage(Female).jpg",
+      "PackagePath": "staticwebassets\\Images\\Home Page Images\\HomeImage(Female).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Home Page Images\\HomeImage(FemaleMale).jpg",
+      "PackagePath": "staticwebassets\\Images\\Home Page Images\\HomeImage(FemaleMale).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Home Page Images\\HomeImage(Male).jpg",
+      "PackagePath": "staticwebassets\\Images\\Home Page Images\\HomeImage(Male).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Sale Banner Images\\Jacket Sale (Male 1).jpg",
+      "PackagePath": "staticwebassets\\Images\\Sale Banner Images\\Jacket Sale (Male 1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\Images\\Sale Banner Images\\stow-kelly-rqj6HrzSlmU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sale Banner Images\\stow-kelly-rqj6HrzSlmU-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Shop.css",
+      "PackagePath": "staticwebassets\\css\\Shop.css"
     },
     {
       "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\site.css",
