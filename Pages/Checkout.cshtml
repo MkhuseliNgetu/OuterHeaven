@@ -1,0 +1,42 @@
+﻿@page
+@model OuterHeaven.Pages.CheckoutModel
+@{
+}
+
+<div class="Main">
+
+   <div class="Summary">
+        <table class="ItemSummary">
+           <thead>
+               <th>Product</th>
+               <th>Quantity</th>
+               <th>Total (Excl. VAT)</th>
+           </thead>
+           <tbody>
+               <tbody>
+                   <tr>
+                       <td>@Model.ItemName</td>
+                       <td>@Model.ItemPrice</td>
+                   </tr>
+                   <tr>
+                       <td>@Model.SetQuantity</td>
+                       <td><input type="number" name="SetNumberofItemRequired" min="0" max="5" /></td>
+                   </tr>
+                     <tr>
+                       <td>@Model.ItemSubtotal</td>
+                    </tr>
+                     <tr>
+                       <hr />
+                       <td>@Model.AllItemsSubtotalNoVat</td>
+                       <td>@Model.AllItemsVat</td>
+                       <td>@Model.AllItemsTotalWithVat</td>
+                       <hr/>
+                       <input type="submit" name="ProccedToPayment" value="Proceed To Payment" />
+                    </tr>
+               </tbody>
+           </tbody>
+        </table>
+    </div>
+
+    
+</div>

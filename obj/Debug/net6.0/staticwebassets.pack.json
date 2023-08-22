@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\Images\\Sale Banner Images\\stow-kelly-rqj6HrzSlmU-unsplash.jpg"
     },
     {
+      "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Checkout.css",
+      "PackagePath": "staticwebassets\\css\\Checkout.css"
+    },
+    {
       "Id": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },

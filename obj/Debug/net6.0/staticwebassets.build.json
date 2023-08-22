@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "axh0iMVEB72Ot6YT9rRZJnmmEukF00LM67JFTm2PG4I=",
+  "Hash": "RvzkyQug/IkHM6tk7n23wz7RblsL3/A0azdwv7RDENE=",
   "Source": "OuterHeaven",
   "BasePath": "_content/OuterHeaven",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OuterHeaven.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Checkout.css",
+      "SourceId": "OuterHeaven",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\",
+      "BasePath": "_content/OuterHeaven",
+      "RelativePath": "css/Checkout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Checkout.css"
     },
     {
       "Identity": "C:\\Users\\mksan\\Source\\Repos\\OuterHeaven\\wwwroot\\css\\Index.css",

@@ -1,0 +1,29 @@
+﻿body {
+    background: #000;
+}
+.ItemSummary {
+    width: 40rem;
+    height: 15rem;
+    border-radius: 25px;
+    background: #ffffff;
+    display: inline-grid;
+    grid-auto-rows: 4fr;
+}
+.ItemSummary container{
+ 
+    border-block-color: #000000;
+    height: 25%;
+}
+.Item {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 25px;
+    background: #ffffff;
+    display: inline-grid;
+    grid-auto-rows: 4fr;
+}
+input submit {
+    border-radius: 25px;
+    background: #000;
+    font-family: Porter Sans Block;
+}

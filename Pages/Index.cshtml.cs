@@ -6,6 +6,7 @@ namespace OuterHeaven.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        public String Experience { get; set; }
       
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -14,7 +15,7 @@ namespace OuterHeaven.Pages
 
         public void OnGet()
         {
-          
+            Experience = "Default";
         }
         public IActionResult OnPost(String MaleExperienceButton, String FemaleExperienceButton)
         {
@@ -24,11 +25,12 @@ namespace OuterHeaven.Pages
                 if (MaleExperienceButton.Equals("Male"))
                 {
                     ViewData["Experience"] = "Male";
-
+                    
                 }
                 else
                 {
                     ViewData["Experience"] = "N/A";
+                   
                 }
             }
 
@@ -37,15 +39,17 @@ namespace OuterHeaven.Pages
                 if (FemaleExperienceButton.Equals("Female") && FemaleExperienceButton != null)
                 {
                     ViewData["Experience"] = "Female";
+                   
                 }
                 else
                 {
                     ViewData["Experience"] = "N/A";
+                    
                 }
 
             }
 
-            return RedirectToPage("Shop");
+            return RedirectToPage("Shop", Experience);
         }
     }
 }
