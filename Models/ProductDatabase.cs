@@ -11,27 +11,36 @@ namespace OuterHeaven.Models
 
         protected SqlConnection LinkToDatabase;
 
-        public string ConnectToDatabase()
+        protected string ConnectToDatabase()
         {
-            using(LinkToDatabase = new SqlConnection(DatabaseConnection))
+            try
             {
-                LinkToDatabase.Open();
-
-                if (LinkToDatabase.State != null)
+                using (LinkToDatabase = new SqlConnection(DatabaseConnection))
                 {
-                    switch (LinkToDatabase.State)
-                    {
+                    LinkToDatabase.Open();
 
-                        case ConnectionState.Open:
-                            DatabaseStatus = "Live!";
-                            break;
-                        case ConnectionState.Closed:
-                            DatabaseStatus = "Closed!";
-                            break;
+                    if (LinkToDatabase.State != null)
+                    {
+                        switch (LinkToDatabase.State)
+                        {
+                            case ConnectionState.Open:
+                                DatabaseStatus = "Live!";
+                                break;
+                            case ConnectionState.Closed:
+                                DatabaseStatus = "Closed!";
+                                break;
+                        }
+
                     }
-                    
                 }
+
             }
+            catch (Exception ex)
+            {
+
+
+            }
+
             return DatabaseStatus;
         }
     }
@@ -83,36 +92,41 @@ namespace OuterHeaven.Models
 
             if (DatabaseStatus == "Live!")
             {
-                SetupIndexedProduct();
-
-                using (LinkToDatabase = new SqlConnection(DatabaseConnection))
+                try
                 {
-                    StockQuery = "SELECT DISTINCT Name, Quantity FROM PRODUCTS WHERE Name= " + ItemName;
+                    SetupIndexedProduct();
 
-                    using (QueryExecuter = new SqlCommand(StockQuery, LinkToDatabase))
+                    using (LinkToDatabase = new SqlConnection(DatabaseConnection))
                     {
-                        QueryExecuter.CommandType = CommandType.Text;
+                        StockQuery = "SELECT DISTINCT Name, Quantity FROM PRODUCTS WHERE Name= " + ItemName;
 
-                        using (SqlTranslater = new SqlDataAdapter(QueryExecuter))
+                        using (QueryExecuter = new SqlCommand(StockQuery, LinkToDatabase))
                         {
-                            SqlTranslater.Fill(IndexedProduct);
+                            QueryExecuter.CommandType = CommandType.Text;
+
+                            using (SqlTranslater = new SqlDataAdapter(QueryExecuter))
+                            {
+                                SqlTranslater.Fill(IndexedProduct);
+                            }
+
                         }
 
+
                     }
-                   
-                    
+                    LinkToDatabase.Close();
                 }
-                LinkToDatabase.Close();
+                catch (Exception CouldNotIndexProduct) { }
+
+                foreach (DataRow Row in IndexedProduct.Rows)
+                {
+                    AvailiableStock = (int)Convert.ToInt64(Row["Quantity"].ToString());
+                }
+
+
+
             }
-
-            foreach(DataRow Row in IndexedProduct.Rows)
-            {
-                AvailiableStock = (int)Convert.ToInt64(Row["Quantity"].ToString());
-            }
-            
-
-
             return AvailiableStock;
         }
+
     }
 }
