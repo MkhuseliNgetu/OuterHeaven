@@ -1,0 +1,50 @@
+/*Item Related*/
+.card {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 25px;
+    background: #ffffff;
+    display: inline-grid;
+    grid-auto-rows: 4fr; 
+
+}
+.card img{
+    width:15rem;
+    height:10rem;
+    position:relative;
+    border-radius: 25px;
+    object-fit:cover;
+}
+
+h4 {
+    font-family: Porter Sans Block;
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+}
+.container{
+ 
+    border-block-color: #000000;
+    height: 25%;
+}
+.card p {
+    font-family: Porter Sans Block;
+    color: #000000;
+    font-size: 1rem;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/*Effects/Animations*/
+.card:hover {
+    box-shadow: 0px 0px 11px #e0e0e0;
+    height: 17.5rem;
+    transition-delay: 100ms;
+}
+.card img:hover{
+    width: 15rem;
+}

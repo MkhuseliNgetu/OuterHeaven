@@ -1,29 +1,61 @@
 ﻿body {
     background: #000;
 }
-.ItemSummary {
-    width: 40rem;
-    height: 15rem;
-    border-radius: 25px;
-    background: #ffffff;
-    display: inline-grid;
-    grid-auto-rows: 4fr;
+.Summary{
+    width:80%;
 }
-.ItemSummary container{
- 
-    border-block-color: #000000;
-    height: 25%;
+.PaymentMethods {
+    width: 75%;
 }
-.Item {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 25px;
-    background: #ffffff;
-    display: inline-grid;
-    grid-auto-rows: 4fr;
-}
-input submit {
-    border-radius: 25px;
-    background: #000;
+h1 {
+    color: #FFF;
     font-family: Porter Sans Block;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 300%;
+}
+form {
+    width: 50%;
+    border-radius: 50px;
+    background: #ffffff;
+    right: 20%;
+    text-align:left;
+}
+table {
+    width: 100%;
+    border-radius: 2rem;
+    background: #ffffff;
+    left: 20%;
+    aspect-ratio: 16/9;
+}
+hr{
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+/*table th{
+     background: #ffffff;
+     border-block-color: #000000;
+}*/
+table thead{
+     background: #ffffff;
+     border-block-color: #000000;
+}
+table tbody{
+    background: #ffffff;
+    border-block-color: #000000;
+}
+table tr {
+    width: 15rem;
+    border-radius: 25px;
+    background: #ffffff;
+  
+}
+input {
+    font-family: Porter Sans Block;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    border-color: transparent;
 }

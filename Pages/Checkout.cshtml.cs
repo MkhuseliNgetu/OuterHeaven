@@ -22,9 +22,12 @@ namespace OuterHeaven.Pages
 
         private double ValueAddedTax = 15.00;
 
+        public string Experience { get; set; }
+
         public ProductDatabase Products;
         public void OnGet()
         {
+            Experience = "Default";
             Products = new ProductDatabase();
            
         }

@@ -5,15 +5,19 @@ namespace OuterHeaven.Pages
 {
     public class ShopModel : PageModel
     {
-        public string Experience { get; set; }
+        public string UserExperience { get; set; }
 
-       
-        public void OnGet()
+        public string OngoingSale {get; set;}
+        public void OnGet(string UserExperience)
         {
-            if(ViewData.Count > 0)
-            {
-               
-            }
+            this.UserExperience = UserExperience;
+            OngoingSale = "50% off";
+          
+        }
+        public IActionResult OnPostJackets(){
+
+
+             return RedirectToPage("Jackets", new {this.UserExperience});
         }
 
 

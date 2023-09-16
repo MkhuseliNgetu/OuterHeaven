@@ -5,12 +5,18 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  font-family: Porter Sans Block;
+  color: white;
 }
 
 a {
-  color: #0077cc;
+  font-family: Porter Sans Block;
+  color: white;
 }
 
+nav{
+  padding-left: 4rem;
+}
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -18,16 +24,24 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
+  color: black;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
 .border-top {
   border-top: 1px solid #e5e5e5;
+  border-radius: 3rem;
+  width: 100%;
+  position: relative;
+
 }
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
+  border-radius: 3rem;
+  width: 75%;
+  position: relative;
+  left:12.5%;
 }
 
 .box-shadow {
@@ -38,17 +52,13 @@ button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
-input {
-    border-radius: 25px;
-    font-family: 'Porter Sans Block';
-    font-size: 1rem;
-}
-
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    line-height: 60px;
+    line-height: 20px;
     font-family: Porter Sans Block;
+    color: white;
+    text-align: center;
 }

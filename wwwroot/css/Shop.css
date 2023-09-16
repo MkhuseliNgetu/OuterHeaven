@@ -2,73 +2,9 @@
 body {
     background: #000;
 }
-.Main {
-   
-}
-/*Header Related */
-.hero {
-    width: 75rem;
-    height: 20rem;
-}
-.hero img {
-    width: 40rem;
-    height: 20rem;
-    border-radius: 25px;
-    object-fit: cover;
-    display: inline-block;
-}
-.hero p {
-    font-family: Porter Sans Block;
-    color: #ffffff;
-    font-size: 1rem;
-    vertical-align: middle;
-    display: inline-block;
-}
-/*Item Related*/
-.card {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 25px;
-    background: #ffffff;
-    display: inline-grid;
-    grid-auto-rows: 4fr; 
-
-}
-.card img{
-    width:15rem;
-    height:10rem;
-    position:relative;
-    border-radius: 25px;
-    object-fit:cover;
-}
 h3 {
     font-family: Porter Sans Block;
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
-}
-h4 {
-    font-family: Porter Sans Block;
-    color: #000000;
-    font-size: 1rem;
-    text-align: center;
-}
-.card container{
- 
-    border-block-color: #000000;
-    height: 25%;
-}
-.card p {
-    font-family: Porter Sans Block;
-    color: #000000;
-    font-size: 1rem;
-
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-}
-/*Effects/Animations*/
-.card:hover {
-    box-shadow: 0px 0px 11px #e0e0e0;
 }
