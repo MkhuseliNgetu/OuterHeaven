@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿@page
 @model OuterHeaven.Pages.CheckoutModel
 @{
@@ -68,3 +69,75 @@
         <input type="submit" name="ProccedToPayment" value="Proceed To Payment" />
     </form>
 </div>
+=======
+﻿@page
+@model OuterHeaven.Pages.CheckoutModel
+@{
+}
+<header>
+    <link rel="stylesheet" href="./css/Checkout.css" type="text/css" />
+</header>
+
+
+<div class="Summary">
+
+       <h1>Checkout</h1>
+
+        <table class="ItemSummary">
+           <thead>
+            <tr>
+               <th>Product</th>
+               <th>Quantity</th>
+            </tr> 
+           </thead>
+           <tbody>
+               <tbody>
+                   <tr>
+                       <td>@Model.ItemName</td>
+                       <td>@Model.ItemPrice</td>
+                   </tr>
+                   <tr>
+                       <td>@Model.SetQuantity</td>
+                       <td><input type="number" name="SetNumberofItemRequired" min="0" max="5" /></td>
+                   </tr>
+                     
+               </tbody>
+            <tfoot>
+            <tr>
+                <td>Subtotal</td>
+                <td>@Model.ItemSubtotal</td>
+            </tr>
+            <tr>
+                <td>Subtotal (Excl. VAT)</td>
+                <td>@Model.AllItemsSubtotalNoVat</td>
+            </tr>
+            <tr>
+                <td>VAT</td>
+                <td>@Model.AllItemsVat</td>
+            </tr>
+            <tr>
+                <td>Subtotal (Incl. VAT)</td>
+                <td>@Model.AllItemsTotalWithVat</td>
+
+            </tr>
+            </tfoot>
+      
+        </table>
+
+    <form class="Payment" enctype="multipart/form-data">
+        <input type="radio" name="EFTSelection" style="border-radius: 12px;" value="EFT" />
+        <label for="EFTSelection">EFT</label>
+        <hr />
+        <input type="radio" name="DirectDepositSelection" value="Direct Deposit" />
+        <label>Direct Deposit</label>
+        <hr />
+        <input type="radio" name="CreditDebitSelection" value="Credit Or Debit Card" />
+        <label>Credit Or Debit Card</label>
+        <hr />
+        <input type="radio" name="OnSiteSelection" value="Cash On Site" />
+        <label>Cash On Delivery</label>
+        <hr />
+        <input type="submit" name="ProccedToPayment" value="Proceed To Payment" />
+    </form>
+</div>
+>>>>>>> Stashed changes

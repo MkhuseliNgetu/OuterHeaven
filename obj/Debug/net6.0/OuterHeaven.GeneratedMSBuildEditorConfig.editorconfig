@@ -9,13 +9,14 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OuterHeaven
 build_property.RootNamespace = OuterHeaven
-build_property.ProjectDir = C:\Users\mksan\Source\Repos\OuterHeaven\
+build_property.ProjectDir = /home/brajo/Documents/GitHub/OuterHeaven/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mksan\Source\Repos\OuterHeaven
+build_property.MSBuildProjectDirectory = /home/brajo/Documents/GitHub/OuterHeaven
 build_property._RazorSourceGeneratorDebug = 
 
+<<<<<<< Updated upstream
 [C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Bandanas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFuZGFuYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -130,12 +131,128 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mksan/Source/Repos/OuterHeaven/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+=======
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Bandanas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmFuZGFuYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Belts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmVsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-w7ez259syk
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Boots.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Chains.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhaW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/CoatsHoodies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29hdHNIb29kaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/DressesSkirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJlc3Nlc1NraXJ0cy5jc2h0bWw=
+>>>>>>> Stashed changes
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Hats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Heels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGVlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Jackets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSmFja2V0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/JeansChinos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSmVhbnNDaGlub3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/JoggersSweatpants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSm9nZ2Vyc1N3ZWF0cGFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Jumpsuits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSnVtcHN1aXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Leggings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVnZ2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Perfume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyZnVtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Pumps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHVtcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Shirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hpcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Sneakers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU25lYWtlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Sunglasses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VuZ2xhc3Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Tops.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9wcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/TShirtsGolfShirts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVFNoaXJ0c0dvbGZTaGlydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Watches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2F0Y2hlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/brajo/Documents/GitHub/OuterHeaven/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2seucag51a

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿body {
     background: #000;
 }
@@ -81,3 +82,88 @@ input {
    
 }
 
+=======
+﻿body {
+    background: #000;
+}
+.Main {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.LandingImageZero {
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    top: 12.5%;
+}
+.LandingImageOne {
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    top: 12.5%;
+}
+.LandingImageTwo {
+    position: absolute;
+    left: 50%;
+    width: 25%;
+    top: 12.5%;
+}
+.LandingImageThree {
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    top: 12.5%;
+}
+.LandingImageZero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.LandingImageOne img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.LandingImageTwo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.LandingImageThree img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+h1 {
+    color: #FFF;
+    font-family: Porter Sans Block;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 300%;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Porter Sans Block;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 150%;
+}
+form {
+    text-align: center;
+    line-height: 450%;
+}
+input {
+    font-family: Porter Sans Block;
+    color: #FFF;
+    font-size: 2rem;
+    background-color: transparent;
+    border-radius: 124px;
+    border-color: transparent;
+   
+}
+
+>>>>>>> Stashed changes

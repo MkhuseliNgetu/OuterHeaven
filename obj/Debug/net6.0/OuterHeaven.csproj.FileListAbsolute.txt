@@ -75,6 +75,7 @@ C:/Users/mksan/Source/Repos/OuterHeaven/obj/Debug/net6.0/ref/OuterHeaven.dll
 /home/brajo/Documents/GitHub/OuterHeaven/obj/Debug/net6.0/OuterHeaven.genruntimeconfig.cache
 /home/brajo/Documents/GitHub/OuterHeaven/obj/Debug/net6.0/ref/OuterHeaven.dll
 /home/brajo/Documents/GitHub/OuterHeaven/bin/Debug/net6.0/package-lock.json
+<<<<<<< Updated upstream
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\OuterHeaven.dll
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\refint\OuterHeaven.dll
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\OuterHeaven.pdb
@@ -114,3 +115,5 @@ C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\scopedcss\projectbundle
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\OuterHeaven.csproj.CopyComplete
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\OuterHeaven.genruntimeconfig.cache
 C:\Users\mksan\Source\Repos\OuterHeaven\obj\Debug\net6.0\ref\OuterHeaven.dll
+=======
+>>>>>>> Stashed changes

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿body {
     background: #000;
 }
@@ -9,3 +10,16 @@ h1 {
     text-align: center;
     line-height: 300%;
 }
+=======
+﻿body {
+    background: #000;
+}
+h1 {
+    color: #FFF;
+    font-family: Porter Sans Block;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 300%;
+}
+>>>>>>> Stashed changes

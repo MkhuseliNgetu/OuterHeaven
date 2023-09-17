@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿
 body {
     background: #000;
@@ -8,3 +9,15 @@ h3 {
     font-size: 2rem;
     text-align: center;
 }
+=======
+﻿
+body {
+    background: #000;
+}
+h3 {
+    font-family: Porter Sans Block;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+>>>>>>> Stashed changes
