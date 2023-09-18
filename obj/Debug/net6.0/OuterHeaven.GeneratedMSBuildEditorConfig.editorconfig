@@ -16,122 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/brajo/Documents/GitHub/OuterHeaven
 build_property._RazorSourceGeneratorDebug = 
 
-<<<<<<< Updated upstream
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Bandanas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFuZGFuYXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Belts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVsdHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Boots.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9vdHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Chains.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhaW5zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/CoatsHoodies.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29hdHNIb29kaWVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/DressesSkirts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJlc3Nlc1NraXJ0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Hats.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGF0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Heels.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVlbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Jackets.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFja2V0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/JeansChinos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVhbnNDaGlub3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/JoggersSweatpants.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9nZ2Vyc1N3ZWF0cGFudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Jumpsuits.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVtcHN1aXRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Leggings.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnZ2luZ3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Perfume.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZnVtZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Pumps.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVtcHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Shirts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hpcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Shop.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Sneakers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU25lYWtlcnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Sunglasses.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VuZ2xhc3Nlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Tops.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/TShirtsGolfShirts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVFNoaXJ0c0dvbGZTaGlydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/Watches.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2F0Y2hlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mksan/Source/Repos/OuterHeaven/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-=======
 [/home/brajo/Documents/GitHub/OuterHeaven/Pages/Bandanas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmFuZGFuYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -158,7 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/brajo/Documents/GitHub/OuterHeaven/Pages/DressesSkirts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJlc3Nlc1NraXJ0cy5jc2h0bWw=
->>>>>>> Stashed changes
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/brajo/Documents/GitHub/OuterHeaven/Pages/Error.cshtml]

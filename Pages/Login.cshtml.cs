@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -13,19 +12,3 @@ namespace OuterHeaven.Pages
         }
     }
 }
-=======
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace OuterHeaven.Pages
-{
-    public class LoginModel : PageModel
-    {
-        public string Experience { get; set; }
-        public void OnGet()
-        {
-            Experience = "Default";
-        }
-    }
-}
->>>>>>> Stashed changes
