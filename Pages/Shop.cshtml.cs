@@ -19,6 +19,11 @@ namespace OuterHeaven.Pages
 
              return RedirectToPage("Jackets", new {this.UserExperience});
         }
+        public IActionResult OnPostCoatsAndHoodies()
+        {
+
+            return RedirectToPage("CoatsAndHoodies", new { this.UserExperience });
+        }
 
 
     }

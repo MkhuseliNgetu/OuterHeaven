@@ -7,11 +7,16 @@ namespace OuterHeaven.Pages
     public class CoatsHoodiesModel : PageModel
     {
 
-        public string Experience { get; set; }
+        public string UserExperience { get; set; }
       
-        public void OnGet()
+        public void OnGet(string UserExperience)
         {
-            Experience = "Default";
+           UserExperience = "Default";
+        }
+        public void OnGetCoatsAndHoodies(string UserExperience)
+        {
+
+            this.UserExperience = UserExperience;
         }
 
     }

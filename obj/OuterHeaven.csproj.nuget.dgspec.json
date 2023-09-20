@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj": {}
+    "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj": {}
   },
   "projects": {
-    "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj": {
+    "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj",
+        "projectUniqueName": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj",
         "projectName": "OuterHeaven",
-        "projectPath": "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj",
-        "packagesPath": "/home/brajo/.nuget/packages/",
-        "outputPath": "/home/brajo/Documents/GitHub/OuterHeaven/obj/",
+        "projectPath": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj",
+        "packagesPath": "C:\\Users\\mksan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/brajo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mksan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +41,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -54,12 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
