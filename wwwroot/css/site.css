@@ -1,37 +1,24 @@
 html {
     font-size: 14px;
-    
 }
-
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
-
 html {
     position: relative;
     min-height: 100%;
-   
 }
-
 body {
     margin-bottom: 60px;
     background: #000;
 }
-
 @font-face {
     font-family: "Porter Sans Block";
     src: local("Porter Sans Block");
-    src: url("../Font's/porter-sans-inline-block.otf") format("opentype");
+    src: url("../Fonts/porter-sans-inline-block.otf") format("opentype");
     font-size: xx-large;
-}
-
-@font-face {
-    font-family: "Libre Barcode 39 Text";
-    src: local("Libre Barcode 39 Text");
-    src: url("../Font's/LibreBarcode39Text-Regular.ttf") format('truetype');
-    font-style: xx-large;
 }
 
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/Icons/Iconsax/css/style.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OuterHeaven.styles.css" asp-append-version="true" />
-    <link href="https://cdn.jsdelivr.net/npm/vuesax/dist/vuesax.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -21,24 +21,20 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        @{
-                            if (Model.UserExperience == "Male" || Model.UserExperience == "Female"|| Model.UserExperience == "Default")
-                             {
+                       
                              <li class="nav-item">
                                 <div class="dropdown">
                                 <a class="btn" data-bs-toggle="dropdown">Clothing</a>
 
                                 <ul class="dropdown-menu" style="background-color: black; border-radius: 2rem;">
-                                <li><a class="nav-link" asp-area="" asp-page="/Jackets" style="font-family: Porter Sans Block; color: white">Jackets</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/CoatsHoodies" style="font-family: Porter Sans Block; color: white">Coats & Hoodies</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/TShirtsGolfShirts" style="font-family: Porter Sans Block; color: white">T-Shirts & Golf-Shirts</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Shirts" style="font-family: Porter Sans Block; color: white">Shirts</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Tops" style="font-family: Porter Sans Block; color: white">Tops</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/DressesSkirts" style="font-family: Porter Sans Block; color: white">Dresses & Skirts</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Jumpsuits" style="font-family: Porter Sans Block; color: white">Jumpsuits</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Leggings" style="font-family: Porter Sans Block; color: white">Leggings</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/JeansChinos" style="font-family: Porter Sans Block; color: white">Jeans & Chinos</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/JoggersSweatPants" style="font-family: Porter Sans Block; color: white">Joggers & Sweatpants</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Jackets/Jackets" asp-page-handler="Get" style="font-family: Porter Sans Block; color: white">Jackets</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/CoatsHoodies/CoatsHoodies" style="font-family: Porter Sans Block; color: white">Coats & Hoodies</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/TShirtsGolfShirts/TShirtsGolfShirts" style="font-family: Porter Sans Block; color: white">T-Shirts & Golf-Shirts</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Tops/Tops" style="font-family: Porter Sans Block; color: white">Tops</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/DressesSkirts/DressesSkirts" style="font-family: Porter Sans Block; color: white">Dresses & Skirts</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Leggings/Leggings" style="font-family: Porter Sans Block; color: white">Leggings</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/JeansChinos/JeansChinos" style="font-family: Porter Sans Block; color: white">Jeans & Chinos</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/JoggersSweatPants/JoggersSweatPants" style="font-family: Porter Sans Block; color: white">Joggers & Sweatpants</a></li>
                                 </ul>
                                 </div>
                              </li>
@@ -47,11 +43,9 @@
                                 <a class="btn" data-bs-toggle="dropdown">Shoes</a>
 
                                 <ul class="dropdown-menu" style="background-color: black; border-radius: 2rem;">
-                                <li><a class="nav-link" asp-area="" asp-page="/Sneakers" style="font-family: Porter Sans Block; color: white">Sneakers</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Boots" style="font-family: Porter Sans Block; color: white">Boots</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Heels" style="font-family: Porter Sans Block; color: white">Heels</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Pumps" style="font-family: Porter Sans Block; color: white">Pumps</a></li>
-                             
+                                <li><a class="nav-link" asp-area="" asp-page="/Sneakers/Sneakers" style="font-family: Porter Sans Block; color: white">Sneakers</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Boots/Boots" style="font-family: Porter Sans Block; color: white">Boots</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Heels/Heels" style="font-family: Porter Sans Block; color: white">Heels</a></li>
                                 </ul>
                                 </div>
                              </li>
@@ -60,51 +54,57 @@
                                 <a class="btn" data-bs-toggle="dropdown">Accessories</a>
 
                                 <ul class="dropdown-menu" style="background-color: black; border-radius: 2rem;">
-                                <li><a class="nav-link" asp-area="" asp-page="/Sunglasses" style="font-family: Porter Sans Block; color: white">Sunglasses</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Watches" style="font-family: Porter Sans Block; color: white">Watches</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Perfume" style="font-family: Porter Sans Block; color: white">Perfume</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Bandanas" style="font-family: Porter Sans Block; color: white">Bandanas</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Chains" style="font-family: Porter Sans Block; color: white">Chains</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Hats" style="font-family: Porter Sans Block; color: white">Hats</a></li>
-                                <li><a class="nav-link" asp-area="" asp-page="/Belts" style="font-family: Porter Sans Block; color: white">Belts</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Sunglasses/Sunglasses" style="font-family: Porter Sans Block; color: white">Sunglasses</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Watches/Watches" style="font-family: Porter Sans Block; color: white">Watches</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Perfume/Perfume" style="font-family: Porter Sans Block; color: white">Perfume</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Bandanas/Bandanas" style="font-family: Porter Sans Block; color: white">Bandanas</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Chains/Chains" style="font-family: Porter Sans Block; color: white">Chains</a></li>
+                                <li><a class="nav-link" asp-area="" asp-page="/Hats/Hats" style="font-family: Porter Sans Block; color: white">Hats</a></li>
                                 </ul>
                                 </div>
                              </li>
-                           
-                            }
-                        }
+                     
                     </ul>
+                    <div class="dropdown">
+                    <a class="btn" data-bs-toggle="dropdown">Login</a>
+                      <ul class="dropdown-menu" style="background-color: black; border-radius: 2rem;">
+
+                        <li>
+                        <form method="post" enctype="multipart/form-data" asp-page-handler="Login" >
+                        <label style="font-family: Raleway Extra Bold; color: white">Username</label>
+                        <br/>
+                        <input type="text" name="Username" placeholder="Username" size="24" required minlength="8" style="font-family: Raleway Extra Bold; color: black; border-radius:8px;"/>
+                        <br/>
+                        <label style="font-family: Raleway Extra Bold; color: white">Password</label>
+                        <br/>
+                        <input type="password" name="Password" placeholder="Password" size="24" required minlength="6" style="font-family: Raleway Extra Bold; color: black; border-radius:8px;"/>
+                        <br/>
+                        <button class="service" type="submit" name="Login">
+                            Login
+                        </button>
+                        <br/>
+                        <button class="service" type="submit" name="Register">
+                            Register
+                        </button>                     
+                        </form>
+                        </li>
+                      </ul>
+                     </div>
                 </div>
-                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-page="/Login" style="font-family: Porter Sans Block; color: white">Not Signed In</a>
-                 </li>
-                 <li class="nav-item">
-                 <div id="app">
-                 <!--<vs-avatar size="small" src="key" style="background-color: black; color: white;" />-->
-                 </div> 
-                 </li>
             </div>
         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/vuesax/dist/vuesax.umd.js"></script>
-            <script>
-            new Vue({
-            el: '#app'
-            })
             </script>
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 OuterHeaven. All Rights Reserved
         </div>
     </footer>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
