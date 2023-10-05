@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj": {}
+    "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj": {
+    "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj",
+        "projectUniqueName": "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj",
         "projectName": "OuterHeaven",
-        "projectPath": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\OuterHeaven.csproj",
-        "packagesPath": "C:\\Users\\mksan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\obj\\",
+        "projectPath": "/home/brajo/Documents/GitHub/OuterHeaven/OuterHeaven.csproj",
+        "packagesPath": "/home/brajo/.nuget/packages/",
+        "outputPath": "/home/brajo/Documents/GitHub/OuterHeaven/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mksan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/brajo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,8 +53,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.122/RuntimeIdentifierGraph.json"
         }
       }
     }

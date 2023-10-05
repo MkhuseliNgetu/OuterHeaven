@@ -45,7 +45,7 @@ namespace OuterHeaven.Pages
 
             }
 
-            return RedirectToPage("Shop", new { this.UserExperience });
+            return RedirectToPage("/Shop/Shop", new { UE = this.UserExperience });
         }
     }
 }
