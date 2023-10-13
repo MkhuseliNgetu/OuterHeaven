@@ -1,0 +1,21 @@
+
+form button {
+    display: inline-grid;
+    column-width: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    size: 1rem;
+
+    border-color: transparent;
+    border-width: 2px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+
+}
+button i{
+    display: inline-grid;
+}
+.ItemConfimations button{
+    line-height: 12px;
+}

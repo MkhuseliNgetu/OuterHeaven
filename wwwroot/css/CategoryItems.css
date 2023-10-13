@@ -1,0 +1,56 @@
+/*Item Related*/
+.card {
+    width: 24rem;
+    height: 26rem;
+    border-radius: 25px;
+    background: #ffffff;
+    display: inline-grid;
+    grid-auto-rows: 4fr; 
+}
+.card img{
+    width:24rem;
+    height:20rem;
+    position:relative;
+    border-radius: 25px;
+    object-fit:cover;
+}
+h4{
+    font-family: Porter Sans Block;
+    color: #000000;
+    font-size: 1rem;
+}
+h5{
+    font-family: Porter Sans Block;
+    color: #000000;
+    font-size: 1rem;
+    font-style: normal;
+    text-align: center;
+}
+.container{
+    height: 25%;
+}
+.ItemName{
+    position: absolute;
+    right: 30%;
+    bottom: 15%;
+}
+.ItemOptions{
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+    display: none;
+}
+.ItemConfimations{
+    position: absolute;
+    bottom: 3%; 
+    right:1%;
+}
+.ItemPrice{
+    position: absolute;
+    bottom: 2%;
+    left:1%;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+/* Card Related*/
+.card:hover{
+    width: 32rem;
+    height: 20rem;
+    /*Transitions*/
+    -webkit-transition: all 1s ease-in;/* Safari and Chrome */
+    -moz-transition: all 1s ease-in;/* Firefox */
+    -ms-transition: all 1s ease-in;/* Microsoft Edge */
+    -o-transition: all 1s ease-in;/* Opera */
+    transition: all 1s ease-in;
+    /*Backdrops*/
+    backdrop-filter: blur (80%);
+    /*Shadow*/
+    box-shadow: 2px 2px, 2px, 2px white;
+}
+
+.card:hover .ItemOptions{
+    display: block;
+    
+}
+.card:hover .ItemName{
+    position: absolute;
+    right: 9%;
+    top: 12.5%;
+}
+.card:hover h5{
+    color:white;
+}
+.card:hover img{
+    height: 20rem;
+    width: 15rem;
+    /*Transitions*/
+    -webkit-transition: all 1s ease-out;/* Safari and Chrome */
+    -moz-transition: all 1s ease-out;/* Firefox */
+    -ms-transition: all 1s ease-out;/* Microsoft Edge */
+    -o-transition: all 1s ease-out;/* Opera */
+     transition: all 1s ease-out;
+}
+
