@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yubRQ6XYYeh6E3TELhWZ7nCJiP+7pWT0MPS2X3Dqx/k=",
+  "Hash": "mEP2/OWFP8VYfVuKCzLPl5Kfk4rvdXCu49sbIEbGj3E=",
   "Source": "OuterHeaven",
   "BasePath": "_content/OuterHeaven",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/brajo/Documents/GitHub/OuterHeaven/obj/Debug/net6.0/scopedcss/projectbundle/OuterHeaven.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/css/CategoryItemButtons.css",
+      "SourceId": "OuterHeaven",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/",
+      "BasePath": "_content/OuterHeaven",
+      "RelativePath": "css/CategoryItemButtons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/CategoryItemButtons.css"
+    },
+    {
+      "Identity": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/css/CategoryItems.css",
+      "SourceId": "OuterHeaven",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/",
+      "BasePath": "_content/OuterHeaven",
+      "RelativePath": "css/CategoryItems.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/CategoryItems.css"
     },
     {
       "Identity": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/css/Checkout.css",
@@ -117,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/Index.css"
+    },
+    {
+      "Identity": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/css/ItemEffects.css",
+      "SourceId": "OuterHeaven",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/",
+      "BasePath": "_content/OuterHeaven",
+      "RelativePath": "css/ItemEffects.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/ItemEffects.css"
     },
     {
       "Identity": "/home/brajo/Documents/GitHub/OuterHeaven/wwwroot/css/Items.css",
