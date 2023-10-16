@@ -1,6 +1,6 @@
 
 form button {
-    display: inline-grid;
+    display: inline;
     column-width: 1rem;
     border-radius: 1rem;
     position: relative;
