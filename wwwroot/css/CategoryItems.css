@@ -40,10 +40,16 @@ h5{
     bottom: 40%;
     display: none;
 }
+.ItemAvailability{
+    position: absolute;
+    right: 3%;
+    bottom: 20%;
+    display: none;
+}
 .ItemConfimations{
     position: absolute;
     bottom: 3%; 
-    right:1%;
+    right: 3%;
 }
 .ItemPrice{
     position: absolute;

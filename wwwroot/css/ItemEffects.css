@@ -3,20 +3,20 @@
     width: 32rem;
     height: 20rem;
     /*Transitions*/
-    -webkit-transition: all 1s ease-in;/* Safari and Chrome */
-    -moz-transition: all 1s ease-in;/* Firefox */
-    -ms-transition: all 1s ease-in;/* Microsoft Edge */
-    -o-transition: all 1s ease-in;/* Opera */
-    transition: all 1s ease-in;
-    /*Backdrops*/
-    backdrop-filter: blur (80%);
+    -webkit-transition: all 300ms ease-in;/* Safari and Chrome */
+    -moz-transition: all 300ms ease-in;/* Firefox */
+    -ms-transition: all 300ms ease-in;/* Microsoft Edge */
+    -o-transition: all 300ms ease-in;/* Opera */
+    transition: all 300ms ease-in;
+   
     /*Shadow*/
     box-shadow: 2px 2px, 2px, 2px white;
 }
-
+.card:hover .ItemAvailability{
+    display: block;
+}
 .card:hover .ItemOptions{
     display: block;
-    
 }
 .card:hover .ItemName{
     position: absolute;
@@ -30,10 +30,10 @@
     height: 20rem;
     width: 15rem;
     /*Transitions*/
-    -webkit-transition: all 1s ease-out;/* Safari and Chrome */
-    -moz-transition: all 1s ease-out;/* Firefox */
-    -ms-transition: all 1s ease-out;/* Microsoft Edge */
-    -o-transition: all 1s ease-out;/* Opera */
-     transition: all 1s ease-out;
+    -webkit-transition: all 300ms ease-out;/* Safari and Chrome */
+    -moz-transition: all 300ms ease-out;/* Firefox */
+    -ms-transition: all 300ms ease-out;/* Microsoft Edge */
+    -o-transition: all 300ms ease-out;/* Opera */
+     transition: all 300ms ease-out;
 }
 

@@ -4,8 +4,11 @@
     ViewData["Title"] = "Boots";
 }
 <header>
-    <link rel="stylesheet" href="../css/Items.css" type="text/css" />
-    <link rel="stylesheet" href="../css/HeadersAndButtons.css" type="text/css"/>
+   <link rel="stylesheet" href="../css/HeadersAndButtons.css" type="text/css"/>
+   <link rel="stylesheet" href="../css/CategoryItems.css" type="text/css" />
+   <link rel="stylesheet" href="../css/CategoryItemButtons.css" type="text/css" />
+   <link rel="stylesheet" href="../css/ItemEffects.css" type="text/css" />
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </header>
    
 
@@ -13,75 +16,585 @@
 
 <h1>Boot's</h1>
 
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/1070341/pexels-photo-1070341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/1070341/pexels-photo-1070341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 1</h4>
-            <p class="ItemDescription">R299.99</p> 
-        </div>   
-</div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
-        <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 2</h4>
-            <p class="ItemDescription">R349.00</p>
+        <div class="ItemName">
+            <h4>Boot 1</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>       
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/17158755/pexels-photo-17158755/free-photo-of-woman-standing-on-one-leg-in-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 3</h4>
-            <p class="ItemDescription">R399.99</p>
+        <div class="ItemName">
+            <h4>Boot 2</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/15581116/pexels-photo-15581116/free-photo-of-woman-in-blue-dress-and-red-boots-sitting-on-grass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/17158755/pexels-photo-17158755/free-photo-of-woman-standing-on-one-leg-in-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 4</h4>
-            <p class="ItemDescription">R449.99</p>
+        <div class="ItemName">
+            <h4>Boot 3</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/4589223/pexels-photo-4589223.jpeg?auto=compress&cs=tinysrgb&w=1600" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/15581116/pexels-photo-15581116/free-photo-of-woman-in-blue-dress-and-red-boots-sitting-on-grass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 5</h4>
-            <p class="ItemDescription">R499.99</p>
+        <div class="ItemName">
+            <h4>Boot 4</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/5185055/pexels-photo-5185055.jpeg?auto=compress&cs=tinysrgb&w=1600" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/4589223/pexels-photo-4589223.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 6</h4>
-            <p class="ItemDescription">R350.00</p>
+        <div class="ItemName">
+            <h4>Boot 5</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/14523205/pexels-photo-14523205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/5185055/pexels-photo-5185055.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 7</h4>
-            <p class="ItemDescription">R280.00</p>
+        <div class="ItemName">
+            <h4>Boot 6</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/14759054/pexels-photo-14759054.jpeg?auto=compress&cs=tinysrgb&w=1600" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/14523205/pexels-photo-14523205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 8</h4>
-            <p class="ItemDescription">R500</p>
+        <div class="ItemName">
+            <h4>Boot 7</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.unsplash.com/photo-1571505385418-67bd85677abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlbHNlYSUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.pexels.com/photos/14759054/pexels-photo-14759054.jpeg?auto=compress&cs=tinysrgb&w=1600">
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 9</h4>
-            <p class="ItemDescription">R330.00</p>
+        <div class="ItemName">
+            <h4>Boot 8</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
-<div class="card" name="Boots" style="height: 26rem;">
-        <img src="https://images.unsplash.com/photo-1534233812932-59b8fa1b780c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" style="height: 20rem;"/>
+<div class="card" name="Boots">
+        <img src="https://images.unsplash.com/photo-1571505385418-67bd85677abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlbHNlYSUyMGJvb3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Boot 10</h4>
-            <p class="ItemDescription">R380.00</p>
+        <div class="ItemName">
+            <h4>Boot 9</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+</div>
+<div class="card" name="Boots">
+        <img src="https://images.unsplash.com/photo-1534233812932-59b8fa1b780c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Boot 10</h4>
+        </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="BootSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="BootSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="BootSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="BootSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="BootSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="BootSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="BootSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
 </div>
 </div>
 
