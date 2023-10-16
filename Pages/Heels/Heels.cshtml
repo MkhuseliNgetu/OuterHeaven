@@ -4,83 +4,597 @@
     ViewData["Title"] = "Heels";
 }
 <header>
-    <link rel="stylesheet" href="../css/Items.css" type="text/css" />
-    <link rel="stylesheet" href="../css/HeadersAndButtons.css" type="text/css"/>
+   <link rel="stylesheet" href="../css/HeadersAndButtons.css" type="text/css"/>
+   <link rel="stylesheet" href="../css/CategoryItems.css" type="text/css" />
+   <link rel="stylesheet" href="../css/CategoryItemButtons.css" type="text/css" />
+   <link rel="stylesheet" href="../css/ItemEffects.css" type="text/css" />
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </header>
 
 <div class="Main">
 
 <h1>Heel's</h1>
 
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/3076787/pexels-photo-3076787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/3076787/pexels-photo-3076787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 1</h4>
-            <p class="ItemDescription">R299.99</p> 
-        </div>   
-</div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/8989581/pexels-photo-8989581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
-        <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 2</h4>
-            <p class="ItemDescription">R349.00</p>
+        <div class="ItemName">
+            <h4>Heel 1</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>    
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/8980188/pexels-photo-8980188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/8989581/pexels-photo-8989581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 3</h4>
-            <p class="ItemDescription">R399.99</p>
+        <div class="ItemName">
+            <h4>Heel 2</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>    
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/7400864/pexels-photo-7400864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/8980188/pexels-photo-8980188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 4</h4>
-            <p class="ItemDescription">R449.99</p>
+        <div class="ItemName">
+            <h4>Heel 3</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>     
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/17018822/pexels-photo-17018822/free-photo-of-elegant-high-heels.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/7400864/pexels-photo-7400864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 5</h4>
-            <p class="ItemDescription">R499.99</p>
+        <div class="ItemName">
+            <h4>Heel 4</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>      
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/12303220/pexels-photo-12303220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/17018822/pexels-photo-17018822/free-photo-of-elegant-high-heels.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 6</h4>
-            <p class="ItemDescription">R350.00</p>
+        <div class="ItemName">
+            <h4>Heel 5</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>      
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/13156797/pexels-photo-13156797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/12303220/pexels-photo-12303220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 7</h4>
-            <p class="ItemDescription">R280.00</p>
+        <div class="ItemName">
+            <h4>Heel 6</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>    
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/10604603/pexels-photo-10604603.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/13156797/pexels-photo-13156797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 8</h4>
-            <p class="ItemDescription">R500</p>
+        <div class="ItemName">
+            <h4>Heel 7</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>       
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.unsplash.com/photo-1604001307862-2d953b875079?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGhlZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/10604603/pexels-photo-10604603.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 9</h4>
-            <p class="ItemDescription">R330.00</p>
+        <div class="ItemName">
+            <h4>Heel 8</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>    
+  
 </div>
-<div class="card" name="Heel" style="height: 26rem;">
-        <img src="https://images.pexels.com/photos/13645000/pexels-photo-13645000.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" style="height: 20rem;"/>
+<div class="card" name="Heel">
+        <img src="https://images.unsplash.com/photo-1604001307862-2d953b875079?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGhlZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"/>
         <div class="container" name="ItemDescription">
-            <h4 class="ItemName">Heel 10</h4>
-            <p class="ItemDescription">R380.00</p>
+        <div class="ItemName">
+            <h4>Heel 9</h4>
         </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>     
+</div>
+<div class="card" name="Heel">
+        <img src="https://images.pexels.com/photos/13645000/pexels-photo-13645000.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Heel 10</h4>
+        </div>
+             <form method="post" enctype="application/x-www-form-urlencoded" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="HeelSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   3
+                </button>
+                <button type="submit" name="HeelSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   4 
+                </button>
+                <button type="submit" name="HeelSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   5
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   6
+                </button>
+                <button type="submit" name="HeelSizeOptionFive" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   7
+                </button>
+                <button type="submit" name="HeelSizeOptionSix" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   8
+                </button>
+                <br/>
+                <button type="submit" name="HeelSizeOptionSeven" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   9
+                </button>
+                <button type="submit" name="HeelSizeOptionEight" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   10
+                </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="application/x-www-form-urlencoded" name="ItemConfimations" class="ItemConfimations">
+
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>       
 </div>
 </div>
 
