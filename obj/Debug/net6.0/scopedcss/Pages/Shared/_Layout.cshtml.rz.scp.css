@@ -41,13 +41,11 @@ form input[b-2seucag51a]{
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-
 .nav-pills .nav-link.active[b-2seucag51a], .nav-pills .show > .nav-link[b-2seucag51a] {
   color: black;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-
 .border-top[b-2seucag51a] {
   border-top: 1px solid #e5e5e5;
   border-radius: 2rem;
@@ -62,17 +60,13 @@ form input[b-2seucag51a]{
   position: relative;
   left:12.5%;
 }
-
 .box-shadow[b-2seucag51a] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-
 button.accept-policy[b-2seucag51a] {
   font-size: 1rem;
   line-height: inherit;
 }
-
-
 .footer[b-2seucag51a] {
     position: absolute;
     bottom: 0;

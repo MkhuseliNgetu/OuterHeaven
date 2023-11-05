@@ -1,0 +1,523 @@
+@page
+@model OuterHeaven.Pages.LeggingsModel
+@{
+    ViewData["Title"] = "Leggings";
+}
+<header>
+   <link rel="stylesheet" href="~/css/HeadersAndButtons.css" type="text/css"/>
+   <link rel="stylesheet" href="~/css/CategoryItems.css" type="text/css" />
+   <link rel="stylesheet" href="~/css/CategoryItemButtons.css" type="text/css" />
+   <link rel="stylesheet" href="~/css/ItemEffects.css" type="text/css" />
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</header>
+
+<div class="Main">
+
+<h1>Leggings</h1>
+
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/6443469/pexels-photo-6443469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 1</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>   
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/4194632/pexels-photo-4194632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 2</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/6453448/pexels-photo-6453448.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 3</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/5772128/pexels-photo-5772128.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 4</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/6311396/pexels-photo-6311396.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 5</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/4379316/pexels-photo-4379316.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 6</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/7900295/pexels-photo-7900295.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 7</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/7880184/pexels-photo-7880184.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 8</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/6193559/pexels-photo-6193559.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 9</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+<div class="card" name="Legging">
+        <img src="https://images.pexels.com/photos/3823084/pexels-photo-3823084.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Legging 10</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <label>Select Size</label>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XS
+                </button>
+                <button type="submit" name="LeggingSizeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   S
+                </button>
+                <button type="submit" name="LeggingSizeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   M
+                </button>
+                <br/>
+                <button type="submit" name="LeggingSizeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   L
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XL
+                </button>
+                <button type="submit" name="LeggingSizeOptionFour" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18; width: 4rem;">
+                   XXL
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>  
+        </div>
+</div>
+</div>
+
+
+
+
+
