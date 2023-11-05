@@ -1,0 +1,405 @@
+@page
+@model OuterHeaven.Pages.HatsModel
+@{
+    ViewData["Title"] = "Hats";
+}
+<header>
+    <link rel="stylesheet" href="~/css/HeadersAndButtons.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/CategoryItems.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/CategoryItemButtons.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/ItemEffects.css" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</header>
+
+<div class="Main">
+
+<h1>Hats</h1>
+
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/3819644/pexels-photo-3819644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 1</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>  
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/14436117/pexels-photo-14436117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 2</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/2122844/pexels-photo-2122844.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 3</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+   
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/4421770/pexels-photo-4421770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 4</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>  
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/2464090/pexels-photo-2464090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 5</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+           <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>   
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/5592276/pexels-photo-5592276.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 6</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+        </div>   
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/7137432/pexels-photo-7137432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 7</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/7431243/pexels-photo-7431243.jpeg?auto=compress&cs=tinysrgb&w=1600"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 8</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div> 
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/2773511/pexels-photo-2773511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 9</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>    
+</div>
+<div class="card" name="Hats">
+        <img src="https://images.pexels.com/photos/5588209/pexels-photo-5588209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+        <div class="ItemName">
+            <h4>Hat 10</h4>
+        </div>
+             <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="HatOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Small
+                </button>
+                <button type="submit" name="HatOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                  Midsized
+                </button>
+                <button type="submit" name="HatOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                   Large
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>   
+</div>
+</div>
+
+
+
+
+

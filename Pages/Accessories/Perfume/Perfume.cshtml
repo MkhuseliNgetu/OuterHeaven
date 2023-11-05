@@ -1,0 +1,513 @@
+@page
+@model OuterHeaven.Pages.PerfumeModel
+@{
+    ViewData["Title"] = "Perfume";
+}
+<header>
+    <link rel="stylesheet" href="~/css/HeadersAndButtons.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/CategoryItems.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/CategoryItemButtons.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/ItemEffects.css" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</header>
+
+<div class="Main">
+
+<h1>Perfume</h1>
+
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/6797632/pexels-photo-6797632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 1</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>   
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/11711810/pexels-photo-11711810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 2</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/12538232/pexels-photo-12538232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 3</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/7270663/pexels-photo-7270663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 4</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/1961794/pexels-photo-1961794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 5</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/12031203/pexels-photo-12031203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 6</h4>
+            </div>
+                   <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/8941462/pexels-photo-8941462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 7</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+           <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/8516167/pexels-photo-8516167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 8</h4>
+            </div>
+                    <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/11860930/pexels-photo-11860930.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"/>
+        <div class="container" name="ItemDescription">
+             <div class="ItemName">
+                <h4>Perfume 9</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+<div class="card" name="Perfume">
+        <img src="https://images.pexels.com/photos/16235241/pexels-photo-16235241/free-photo-of-a-bottle-of-perfume.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <div class="container" name="ItemDescription">
+            <div class="ItemName">
+                <h4>Perfume 10</h4>
+            </div>
+                <form method="post" enctype="multipart/form-data" name="ItemOptions" class="ItemOptions">
+                <button type="submit" name="PerfumeOptionOne" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    30ml
+                </button>
+                <button type="submit" name="PerfumeOptionTwo" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    50ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    100ml
+                </button>
+                <br/>
+                <br/>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    125ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    150ml
+                </button>
+                <button type="submit" name="PerfumeOptionThree" required style="background-color: white; border-color: black; border-width: 0.2rem; size: 18;">
+                    200ml
+                </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemAvailability" class="ItemAvailability">
+              <button type="submit" name="SeeDetails" required size="24" placeholder="Share" style="background-color: black; color: white;">
+                   <i class='bx bxs-share-alt'></i> Share
+              </button>
+              <button type="submit" name="CheckAvailability" size="24" placeholder="Check Availability" style="background-color: black; border-color: white; color:white;"> 
+                   <i class='bx bx-store-alt'></i> Check Stock
+              </button>
+            </form>
+            <form method="post" enctype="multipart/form-data" name="ItemConfimations" class="ItemConfimations">
+                <button type="submit" name="SeeDetails" required size="24" placeholder="Wishlist" style="background-color: orange; color: white;">
+                    <i class='bx bx-purchase-tag-alt'></i> Wishlist
+                </button>
+                <button type="submit" name="AddToCard" required size="24" placeholder="Add To Cart" style="background-color: crimson; color: white;">
+                    <i class='bx bx-cart-add'></i> Add To Cart
+                </button>
+            </form>
+            <div class="ItemPrice">
+                <h5>R299.99</h5>
+            </div>
+        </div>
+</div>
+</div>
+
+
+
+
+
