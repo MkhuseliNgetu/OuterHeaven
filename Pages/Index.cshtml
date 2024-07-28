@@ -1,7 +1,7 @@
 @page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Verify";
 }
 <header>
     <link rel="stylesheet" href="../css/Index.css" type="text/css" />
@@ -27,13 +27,14 @@
      <h1>Outer Heaven</h1>
 
      <h2>Select your<br />experience</h2>
-     
-     <form method="post" asp-page-handler="Get" enctype="multipart/form-data">
+
+    <form asp-page-handler="Post" method="post" enctype="multipart/form-data">
      <input type="submit" name="MaleExperienceButton" value="Male" />
      <br />
      <input type="submit" name="FemaleExperienceButton" value="Female" />
      <br />
      </form>
+
 </div>
 
 

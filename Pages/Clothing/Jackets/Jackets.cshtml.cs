@@ -6,11 +6,11 @@ namespace OuterHeaven.Pages
 {
     public class JacketModel : PageModel
     {
-        public string UserExperience { get; set; }
 
-        public void OnGet(string UE)
+
+        public void OnGet()
         {
-            this.UserExperience = UE;
+         
         }
 
     }

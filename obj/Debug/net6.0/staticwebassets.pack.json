@@ -5,68 +5,8 @@
       "PackagePath": "staticwebassets\\OuterHeaven.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Font's\\LibreBarcode39-Regular.otf",
-      "PackagePath": "staticwebassets\\Font's\\LibreBarcode39-Regular.otf"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Font's\\LibreBarcode39Text-Regular.ttf",
-      "PackagePath": "staticwebassets\\Font's\\LibreBarcode39Text-Regular.ttf"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Font's\\porter-sans-inline-block.otf",
-      "PackagePath": "staticwebassets\\Font's\\porter-sans-inline-block.otf"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\.DS_Store",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\css\\fonts\\iconsax.eot",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\css\\fonts\\iconsax.eot"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\css\\fonts\\iconsax.svg",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\css\\fonts\\iconsax.svg"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\css\\fonts\\iconsax.ttf",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\css\\fonts\\iconsax.ttf"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\css\\fonts\\iconsax.woff",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\css\\fonts\\iconsax.woff"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\Iconsax\\css\\style.css",
-      "PackagePath": "staticwebassets\\Icons\\Iconsax\\css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\iconsax-css\\fonts\\iconsax.eot",
-      "PackagePath": "staticwebassets\\Icons\\iconsax-css\\fonts\\iconsax.eot"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\iconsax-css\\fonts\\iconsax.svg",
-      "PackagePath": "staticwebassets\\Icons\\iconsax-css\\fonts\\iconsax.svg"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\iconsax-css\\fonts\\iconsax.ttf",
-      "PackagePath": "staticwebassets\\Icons\\iconsax-css\\fonts\\iconsax.ttf"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\iconsax-css\\fonts\\iconsax.woff",
-      "PackagePath": "staticwebassets\\Icons\\iconsax-css\\fonts\\iconsax.woff"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\iconsax-css\\style.css",
-      "PackagePath": "staticwebassets\\Icons\\iconsax-css\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\shopping-cart.svg",
-      "PackagePath": "staticwebassets\\Icons\\shopping-cart.svg"
-    },
-    {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Icons\\user.svg",
-      "PackagePath": "staticwebassets\\Icons\\user.svg"
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Fonts\\porter-sans-inline-block.otf",
+      "PackagePath": "staticwebassets\\Fonts\\porter-sans-inline-block.otf"
     },
     {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Images\\Default Item Images\\Belts (Default).jpg",
@@ -181,40 +121,64 @@
       "PackagePath": "staticwebassets\\Images\\Sale Banner Images\\Male Experience\\Winter Sale (Default).jpg"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Chains.css",
-      "PackagePath": "staticwebassets\\css\\Chains.css"
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Video\\Male\\Promo 1.mp4",
+      "PackagePath": "staticwebassets\\Video\\Male\\Promo 1.mp4"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Checkout.css",
-      "PackagePath": "staticwebassets\\css\\Checkout.css"
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Video\\Male\\Promo 2.mp4",
+      "PackagePath": "staticwebassets\\Video\\Male\\Promo 2.mp4"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\CoatsAndHoodies.css",
-      "PackagePath": "staticwebassets\\css\\CoatsAndHoodies.css"
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Video\\Male\\Promo 3.mp4",
+      "PackagePath": "staticwebassets\\Video\\Male\\Promo 3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\Video\\Male\\Promo 4.mp4",
+      "PackagePath": "staticwebassets\\Video\\Male\\Promo 4.mp4"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Cart.css",
+      "PackagePath": "staticwebassets\\css\\Cart.css"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\CategoryItemButtons.css",
+      "PackagePath": "staticwebassets\\css\\CategoryItemButtons.css"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\CategoryItems.css",
+      "PackagePath": "staticwebassets\\css\\CategoryItems.css"
     },
     {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Filters.css",
       "PackagePath": "staticwebassets\\css\\Filters.css"
     },
     {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\HeadersAndButtons.css",
+      "PackagePath": "staticwebassets\\css\\HeadersAndButtons.css"
+    },
+    {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\ItemEffects.css",
+      "PackagePath": "staticwebassets\\css\\ItemEffects.css"
     },
     {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Items.css",
       "PackagePath": "staticwebassets\\css\\Items.css"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Jackets.css",
-      "PackagePath": "staticwebassets\\css\\Jackets.css"
-    },
-    {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\LandingImages.css",
       "PackagePath": "staticwebassets\\css\\LandingImages.css"
     },
     {
-      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Login.css",
-      "PackagePath": "staticwebassets\\css\\Login.css"
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Payments.css",
+      "PackagePath": "staticwebassets\\css\\Payments.css"
+    },
+    {
+      "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\Promotions.css",
+      "PackagePath": "staticwebassets\\css\\Promotions.css"
     },
     {
       "Id": "C:\\Users\\mksan\\OneDrive\\Documents\\GitHub\\OuterHeaven\\wwwroot\\css\\SaleSlider.css",

@@ -1,54 +1,55 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace OuterHeaven
 {
-    public class HomeController : Controller
+    public class HomeController : PageModel
     {
-        public String[][] CheckoutItem;
+
+        public string[][] CheckoutItem;
         public static Payment TransferMyItem;
+        public static int BaseItemSize = 3;
+        public static int ItemCount = 0;
+
         [HttpGet]
-        public IActionResult Index()
+        public void OnGet()
         {
-            return View();
+       
         }
         [HttpPost]
-        public IActionResult Index(String SelectedExpierence)
-        {
-            if (SelectedExpierence.Equals("MaleExperience"))
-            {
-
-
-            }else if (SelectedExpierence.Equals("FemaleExperience"))
-            {
-
-            }
-            return View();
+        public void OnPost() 
+        { 
+        
+        
         }
+      
         [HttpPost]
-        /*[async]*/
-        public IActionResult AddToCart (String AddToCard, String ItemName, String ItemSize,String ItemPrice){
+        public IActionResult AddToCart (string AddToCart, string ItemName, string ItemSize,string ItemPrice){
             TransferMyItem = new Payment();
 
-            switch (AddToCard != null || AddToCard != ""){
+            switch (AddToCart != null || AddToCart != ""){
             
                 case true:
                     if(ItemName != null && ItemSize != null && ItemPrice != null){
-                        String[][] CheckoutItem = {{ItemName, ItemSize, ItemPrice}};
+                        CheckoutItem[0][0] = ItemName;
+                        CheckoutItem[0][1] = ItemSize;
+                        CheckoutItem[0][2] = ItemPrice;
 
-                        TransferMyItem.PaymentItem = CheckoutItem[0][1];
 
-                        if(TransferMyItem.element[0][1] != null){
-                            
+                        for(int DC = 0; DC < BaseItemSize; DC++)
+                        {
+                            TransferMyItem.PaymentItem.SetValue(CheckoutItem[0][DC], DC);
                         }
+                        ItemCount++;
                     }
                 break;
 
                 case false:
-                    Model["EmptyReport"] = "This item is not in the cart";
+                    ViewData["EmptyReport"] = "This item is not in the cart";
                 break;
 
             }
-            
+            return RedirectToAction("Index");
         }
         [HttpPost]
         /*[async]*/
@@ -57,6 +58,7 @@ namespace OuterHeaven
             if(Wishlist != "Wishlist This Item"){
            
             }
+            return RedirectToAction("Index");
         }
     }
 }

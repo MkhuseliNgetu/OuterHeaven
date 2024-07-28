@@ -1,8 +1,8 @@
 @page
 @model OuterHeaven.Pages.ShopModel
 @{
+    ViewData["Title"] = "Home";
 }
-
 <header>
     <link rel="stylesheet" href="../css/Shop.css" type="text/css" />
     <link rel="stylesheet" href="../css/SaleSlider.css" type="text/css" />
@@ -16,13 +16,16 @@
         <div class="slider-wrapper">
             <div class="slider">
                 @{
-                    if(@Model.UserExperience == "Male"){
+                    if (@ViewData["UserExperience"] == "Male")
+                    {
                     <img id="slide-1" src="../Images/Sale Banner Images/Male Experience/Autumn Sale (Default).jpg" alt="Autumn Sale 2023"/>
                     <img id="slide-2" src="../Images/Sale Banner Images/Male Experience/Winter Sale (Default).jpg" alt="Winter Sale 2023"/>
                     <img id="slide-3" src="../Images/Sale Banner Images/Male Experience/Spring Sale (Default).jpg" alt="Spring Sale 2023"/>
                     <img id="slide-4" src="../Images/Sale Banner Images/Male Experience/Summer Sale (Default).jpg" alt="Summer Sale 2023"/>
                     <img id="slide-5" src="../Images/Sale Banner Images/Male Experience/Sale (Default).jpg" alt="Sale 2023"/>
-                    }else if(@Model.UserExperience == "Female"){
+                    }
+                    else if (@ViewData["UserExperience"] == "Female")
+                    {
                     <img id="slide-1" src="../Images/Sale Banner Images/Female Experience/Autumn Sale (Default).jpg" alt="Autumn Sale 2023"/>
                     <img id="slide-2" src="../Images/Sale Banner Images/Female Experience/Winter Sale (Default).jpg" alt="Winter Sale 2023"/>
                     <img id="slide-3" src="../Images/Sale Banner Images/Female Experience/Spring Sale (Default).jpg" alt="Spring Sale 2023"/>

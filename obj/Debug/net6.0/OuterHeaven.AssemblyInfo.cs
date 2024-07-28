@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OuterHeaven")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab1ea38065497658caa0c6c3a20ca1bbf7c5027f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OuterHeaven")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OuterHeaven")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,28 +1,28 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-2seucag51a] {
+a.navbar-brand[b-w7ez259syk] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
   font-family: Porter Sans Block;
   color: white;
 }
-a[b-2seucag51a] {
+a[b-w7ez259syk] {
   font-family: Porter Sans Block;
   color: white;
 }
-nav[b-2seucag51a]{
+nav[b-w7ez259syk]{
   padding-left: 4rem;
 }
-form[b-2seucag51a]{
+form[b-w7ez259syk]{
   display: flex;
 }
-.service[b-2seucag51a]{
+.service[b-w7ez259syk]{
   display:inline-block;
   font-size: medium;
 }
-form button[b-2seucag51a]{
+form button[b-w7ez259syk]{
   size: 6px; 
   font-family: Porter Sans Block; 
   color: white;
@@ -30,44 +30,44 @@ form button[b-2seucag51a]{
   background-color: black; 
   border-radius: 2rem;
 }
-form input[b-2seucag51a]{
+form input[b-w7ez259syk]{
   size: 3px; 
   font-family: Porter Sans Block; 
   color: white;
   font-size: 1rem;
 }
-.btn-primary[b-2seucag51a] {
+.btn-primary[b-w7ez259syk] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-.nav-pills .nav-link.active[b-2seucag51a], .nav-pills .show > .nav-link[b-2seucag51a] {
+.nav-pills .nav-link.active[b-w7ez259syk], .nav-pills .show > .nav-link[b-w7ez259syk] {
   color: black;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-.border-top[b-2seucag51a] {
+.border-top[b-w7ez259syk] {
   border-top: 1px solid #e5e5e5;
   border-radius: 2rem;
   width: 100%;
   position: relative;
 
 }
-.border-bottom[b-2seucag51a] {
+.border-bottom[b-w7ez259syk] {
   border-bottom: 1px solid #e5e5e5;
   border-radius: 3rem;
   width: 75%;
   position: relative;
   left:12.5%;
 }
-.box-shadow[b-2seucag51a] {
+.box-shadow[b-w7ez259syk] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-button.accept-policy[b-2seucag51a] {
+button.accept-policy[b-w7ez259syk] {
   font-size: 1rem;
   line-height: inherit;
 }
-.footer[b-2seucag51a] {
+.footer[b-w7ez259syk] {
     position: absolute;
     bottom: 0;
     width: 100%;
