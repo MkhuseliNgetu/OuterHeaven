@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Fonts */
+@font-face {
+    font-family: "Porter Sans Block";
+    src: local("Porter Sans Block");
+    src: url("../public/Fonts/porter-sans-inline-block.otf") format("opentype");
+    font-size: xx-large;
+}
+@font-face {
+    font-family: "Chiralla - Free Version";
+    src: local("Chiralla - Free Version");
+    src: url("../public/Fonts/Chiralla - Free Version.ttf") format("truetype");
+    font-size: xx-large;
+}
+/* Global Font */
+.title-font{
+    font-family: "Chiralla - Free Version";
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: left;
+    line-height: 200%;
+}
+
+.sub-title-font{
+    font-family: "Chiralla - Free Version";
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: left;
+    line-height: 400%;
+}
+.navbar-title-font{
+    font-family: "Chiralla - Free Version";
+    font-size: 1rem;
+}
+
+/* Landing Page */
+.LND-Zero{
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    top: 12.5%;
+}
+.LND-Zero-Img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.LND-One{
+    position: absolute;
+    right: 25%;
+    width: 25.6%;
+    top: 12.5%;
+}
+.LND-One-Img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.LND-Two{
+    position: absolute;
+    left: 23.8%;
+    width: 25.6%;
+    top: 12.5%;
+}
+.LND-Two-Img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.LND-Three{
+    position: absolute;
+    left: 2%;
+    width: 25%;
+    bottom: 40%;
+}
+.LND-Three-Img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Main Page */
+/* Card-Main-Banner */
+.card-main-banner{
+    width:100rem;
+    height:15rem;
+    object-fit: cover;
+    z-index: 0;
+}
+/* Card-Sub-Banner */
+.card-sub-banner{
+    width:100rem;
+    height:5rem;
+    object-fit: cover;
+    z-index: 0;
+}
+/* Sale Card Images */
+.card-images-lg{
+    width:20rem;
+    height:25rem;
+    object-fit: cover;
+    z-index: 0;
+}
