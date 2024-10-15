@@ -29,11 +29,7 @@ export default function Main() {
                     <p className="text-tiny text-white/60 uppercase font-bold">[placeholder percentage] off [sale type]</p>
                     <h4 className="text-white font-medium text-large"> [sale type] sale</h4>
                     </CardHeader>
-                        <Image removeWrapper src={ImagePaths[0]+Images[1]}
-                                className="card-images-lg"/>
-                    <CardFooter>
-
-                    </CardFooter>
+                        <Image removeWrapper src={ImagePaths[0]+Images[1]}className="card-images-lg"/>
                 </Card>
                 <Spacer x={4} />
                 <Card isFooterBlurred className="col-span-8 sm:col-span-2">
@@ -41,11 +37,7 @@ export default function Main() {
                     <p className="text-tiny text-white/60 uppercase font-bold">[placeholder percentage] off [sale type]</p>
                     <h4 className="text-white font-medium text-large"> [sale type] sale</h4>
                     </CardHeader>
-                        <Image removeWrapper src={ImagePaths[0]+Images[2]}
-                                className="card-images-lg"/>
-                    <CardFooter>
-
-                    </CardFooter>
+                        <Image removeWrapper src={ImagePaths[0]+Images[2]}className="card-images-lg"/>
                 </Card>
                 <Spacer x={4} />
                 <Card isFooterBlurred className="col-span-12 sm:col-span-4">
@@ -53,11 +45,7 @@ export default function Main() {
                     <p className="text-tiny text-white/60 uppercase font-bold">[placeholder percentage] off [sale type]</p>
                     <h4 className="text-white font-medium text-large"> [sale type] sale</h4>
                     </CardHeader>
-                        <Image removeWrapper src={ImagePaths[0]+Images[3]}
-                                className="card-images-lg"/>
-                    <CardFooter>
-
-                    </CardFooter>
+                        <Image removeWrapper src={ImagePaths[0]+Images[3]} className="card-images-lg"/>
                 </Card>
                 <Spacer x={4} />
                 <Card isFooterBlurred className="col-span-12 sm:col-span-4">
@@ -65,11 +53,7 @@ export default function Main() {
                     <p className="text-tiny text-white/60 uppercase font-bold">[placeholder percentage] off [sale type]</p>
                     <h4 className="text-white font-medium text-large"> [sale type] sale</h4>
                     </CardHeader>
-                        <Image removeWrapper src={ImagePaths[0]+Images[4]}
-                                className="card-images-lg"/>
-                    <CardFooter>
-
-                    </CardFooter>
+                        <Image removeWrapper src={ImagePaths[0]+Images[4]} className="card-images-lg"/>
                 </Card>
             </div>
             <Spacer y={8} />

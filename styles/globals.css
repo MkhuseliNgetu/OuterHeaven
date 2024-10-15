@@ -90,14 +90,14 @@
 /* Card-Main-Banner */
 .card-main-banner{
     width:100rem;
-    height:15rem;
+    height:35rem;
     object-fit: cover;
     z-index: 0;
 }
 /* Card-Sub-Banner */
 .card-sub-banner{
     width:100rem;
-    height:5rem;
+    height:35rem;
     object-fit: cover;
     z-index: 0;
 }
