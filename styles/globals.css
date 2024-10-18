@@ -4,12 +4,6 @@
 
 /* Custom Fonts */
 @font-face {
-    font-family: "Porter Sans Block";
-    src: local("Porter Sans Block");
-    src: url("../public/Fonts/porter-sans-inline-block.otf") format("opentype");
-    font-size: xx-large;
-}
-@font-face {
     font-family: "Chiralla - Free Version";
     src: local("Chiralla - Free Version");
     src: url("../public/Fonts/Chiralla - Free Version.ttf") format("truetype");
@@ -34,6 +28,10 @@
 .navbar-title-font{
     font-family: "Chiralla - Free Version";
     font-size: 1rem;
+}
+.footer-font{
+    font-family: "Chiralla - Free Version";
+    font-size: 1rem; 
 }
 
 /* Landing Page */
@@ -85,7 +83,31 @@
     object-fit: cover;
 }
 
-
+/* Login Page */
+.Login-Form{
+    position: absolute;
+    right: 2%;
+    width: 25%;
+    bottom: 40%;
+}
+.Login-Image-One{
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    top: 12.5%;
+}
+.Login-Image-Two{
+    position: absolute;
+    left: 25%;
+    width: 25.6%;
+    top: 12.5%;
+}
+.Login-Image-Three{
+    position: absolute;
+    left: 25%;
+    width: 25.6%;
+    top: 12.5%;
+}
 /* Main Page */
 /* Card-Main-Banner */
 .card-main-banner{

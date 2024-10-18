@@ -5,10 +5,6 @@ export const siteConfig = {
   description: "V has come to.",
   navItems: [
     {
-      label: "Home",
-      href: "/",
-    },
-    {
       label: "Accessories",
       href: "/accessories",
     },
@@ -24,41 +20,41 @@ export const siteConfig = {
   navMenuItems: [
     {
       label: "Profile",
-      href: "/profile",
+      href: "/user/profile",
     },
     {
       label: "Dashboard",
-      href: "/dashboard",
+      href: "/user/dashboard",
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "/user/projects",
     },
     {
       label: "Team",
-      href: "/team",
+      href: "/user/team",
     },
     {
       label: "Calendar",
-      href: "/calendar",
+      href: "/user/calendar",
     },
     {
       label: "Settings",
-      href: "/settings",
+      href: "/user/settings",
     },
     {
       label: "Help & Feedback",
-      href: "/help-feedback",
+      href: "/user/help-feedback",
     },
     {
       label: "Logout",
-      href: "/logout",
+      href: "/user/logout",
     },
   ],
   navMenuAuthItems:[
     {
       label: "Sign In",
-      href: "/login",
+      href: "/user/login",
     }
   ],
   navMain:[

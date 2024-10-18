@@ -8,8 +8,6 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 
-import { Button, ButtonGroup } from "@nextui-org/button";
-import { Disc3, ShoppingBag, SunSnow, VenetianMask } from "lucide-react";
 
 export const metadata: Metadata = {
   title: {
@@ -18,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/SyanStudios-V7.ico",
   },
 };
 
@@ -50,25 +48,7 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-                {/* <ButtonGroup>
-                  <Button size="lg" color="primary" endContent={ <ShoppingBag />}>
-                    <span>Start Shopping</span>
-                  </Button>
-                  <Button size="lg" color="warning" endContent={ <VenetianMask />}>
-                    <span>Set The Tone</span>
-                  </Button>
-                </ButtonGroup>
-                
-                <ButtonGroup>
-                  <Button size="lg" color="success" endContent={ <Disc3 />}>
-                    <span>Shop By Playlist</span>
-                  </Button>
-                  <Button size="lg" color="danger" endContent={ <SunSnow />}>
-                    <span>Shop By Season</span>
-                  </Button>
-                </ButtonGroup>
-                 */}
-         
+              <p className="footer-font">2024 Syan Studios</p>
             </footer>
           </div>
         </Providers>

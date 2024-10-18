@@ -32,10 +32,12 @@ const SpringMainblobNames: string[] = ["MN-BannerOne-V1.jpg","MN-SpringSaleItemO
                                     "MN-SpringSaleItemThree24-V1.jpg","MN-SpringSaleItemFour24-V1.jpg","MN-BannerTwo-V1.jpg",];
 
 //Clothing Page - Default
-
 const ClothingMainblobNames: string[] = ["CLTMN-Coat-V1.jpg","CLTMN-Skirts-V1.jpg","CLTMN-Hoodie-V1.jpg",
     "CLTMN-Jacket-V1.jpg","CLTMN-Jean-V1.jpg","CLTMN-Leggings-V1.jpg","CLTMN-Shirts-V1.jpg","CLTMN-Sweatpants-V1.jpg","CLTMN-Tops-V1.jpg"];
                                     
+//Login Page - Default
+const loginblobNames: string[] = ["LOD-One-V1.jpg","LOD-Two-V1.jpg","LOD-Three-V1.jpg"];
+
 let containerClient: ContainerClient 
 let blobClient 
 let downloadResult
@@ -44,11 +46,17 @@ const fs = require('fs');
 
 export default async function MainBlobs() {
 
-// GetFonts().then(() => console.log(`GetFonts Executed successfully`)).catch((err: unknown) => {
-//         if (err instanceof Error) {
-//           console.log(err.message);
-//         }
-//       });
+GetFonts().then(() => console.log(`GetFonts Executed successfully`)).catch((err: unknown) => {
+        if (err instanceof Error) {
+          console.log(err.message);
+         }
+      });
+GetLoadingPageImages().then(() => console.log(`LoadingPageImages Executed successfully`)).catch((err: unknown) => {
+        if (err instanceof Error) {
+          console.log(err.message);
+        }
+      });
+
 GetLandingPageImages().then(() => console.log(`LandingPageImages Executed successfully`)).catch((err: unknown) => {
         if (err instanceof Error) {
           console.log(err.message);
@@ -69,32 +77,32 @@ GetClothingMainPageImages().then(() => console.log(`ClothingPageImages success`)
 }
 
 
-
-const GetFonts = async () => {
+//Fonts
+export const GetFonts = async () => {
 
     const font = "Chiralla - Free Version.ttf"
-    const fontNamesV1 = './public/Fonts/'+font
+    const fontNamesV0 = './public/Fonts/'+font
 
     containerClient = blobServiceClient.getContainerClient(containerName as string);
 
     blobClient = containerClient.getBlockBlobClient(font);
     
-    downloadResult = await blobClient.downloadToFile(fontNamesV1);
+    downloadResult = await blobClient.downloadToFile(fontNamesV0);
 
 }
 //Landing
-const GetLandingPageImages = async () => {
+ export const GetLoadingPageImages = async () => {
 
     containerClient = blobServiceClient.getContainerClient(containerName as string);
     
     //Landing Page Images
-    for (let index = 0; index < altlandingblobNames.length; index++) {
+    for (let index = 0; index < loginblobNames.length; index++) {
     
-      const element = altlandingblobNames[index];
+      const element = loginblobNames[index];
     
       const timestamp = Date.now().toPrecision();
-      const fileNames =`LND-${timestamp}.jpg`;
-      const fileNamesV1 = './public/Images/'+'LND-'+index+'.jpg'
+      const fileNames =`LOD-${timestamp}.jpg`;
+      const fileNamesV1 = './public/Images/'+'LOD-'+index+'.jpg'
     
       if(fs.existsSync(fileNamesV1)){
         console.log(`${fileNamesV1}`+" already exists."+"\t"+"Skipping over to the next...");
@@ -113,6 +121,38 @@ const GetLandingPageImages = async () => {
 
 }
 
+//Landing
+export const GetLandingPageImages = async () => {
+
+  containerClient = blobServiceClient.getContainerClient(containerName as string);
+  
+  //Landing Page Images
+  for (let index = 0; index < altlandingblobNames.length; index++) {
+  
+    const element = altlandingblobNames[index];
+  
+    const timestamp = Date.now().toPrecision();
+    const fileNames =`LND-${timestamp}.jpg`;
+    const fileNamesV2 = './public/Images/'+'LND-'+index+'.jpg'
+  
+    if(fs.existsSync(fileNamesV2)){
+      console.log(`${fileNamesV2}`+" already exists."+"\t"+"Skipping over to the next...");
+      }else{
+      blobClient = containerClient.getBlockBlobClient(element);
+
+      downloadResult = await blobClient.downloadToFile(fileNamesV2);
+
+      if (downloadResult?.errorCode) throw Error(downloadResult.errorCode);
+
+      console.log(
+      `${fileNamesV2} downloaded ${downloadResult?.contentType}, isCurrentVersion: ${downloadResult?.isCurrentVersion}`
+      );
+    }
+  }
+
+}
+
+
 //Main   
 export const GetMainPageImages = async () =>{
     
@@ -126,19 +166,19 @@ export const GetMainPageImages = async () =>{
     
           const timestamp = Date.now().toPrecision();
           const fileNames =`MN-${timestamp}.jpg`;
-          const fileNamesV2 = './public/Images/'+'MN-'+index+'.jpg'
+          const fileNamesV3 = './public/Images/'+'MN-'+index+'.jpg'
     
-            if(fs.existsSync(fileNamesV2)){
-                console.log(`${fileNamesV2}`+" already exists."+"\t"+"Skipping over to the next...");
+            if(fs.existsSync(fileNamesV3)){
+                console.log(`${fileNamesV3}`+" already exists."+"\t"+"Skipping over to the next...");
             }else{
                 blobClient = containerClient.getBlockBlobClient(element);
     
-                downloadResult = await blobClient.downloadToFile(fileNamesV2);
+                downloadResult = await blobClient.downloadToFile(fileNamesV3);
           
                 if (downloadResult?.errorCode) throw Error(downloadResult.errorCode);
           
                 console.log(
-                `${fileNamesV2} downloaded ${downloadResult?.contentType}, isCurrentVersion: ${downloadResult?.isCurrentVersion}`
+                `${fileNamesV3} downloaded ${downloadResult?.contentType}, isCurrentVersion: ${downloadResult?.isCurrentVersion}`
                 );
               }
             }
@@ -158,19 +198,19 @@ export const GetClothingMainPageImages = async () =>{
     
           const timestamp = Date.now().toPrecision();
           const fileNames =`CLTMN-${timestamp}.jpg`;
-          const fileNamesV3 = './public/Images/Clothing/'+'CLTMN-'+index+'.jpg'
+          const fileNamesV4 = './public/Images/Clothing/'+'CLTMN-'+index+'.jpg'
     
-            if(fs.existsSync(fileNamesV3)){
-                console.log(`${fileNamesV3}`+" already exists."+"\t"+"Skipping over to the next...");
+            if(fs.existsSync(fileNamesV4)){
+                console.log(`${fileNamesV4}`+" already exists."+"\t"+"Skipping over to the next...");
             }else{
                 blobClient = containerClient.getBlockBlobClient(element);
     
-                downloadResult = await blobClient.downloadToFile(fileNamesV3);
+                downloadResult = await blobClient.downloadToFile(fileNamesV4);
           
                 if (downloadResult?.errorCode) throw Error(downloadResult.errorCode);
           
                 console.log(
-                `${fileNamesV3} downloaded ${downloadResult?.contentType}, isCurrentVersion: ${downloadResult?.isCurrentVersion}`
+                `${fileNamesV4} downloaded ${downloadResult?.contentType}, isCurrentVersion: ${downloadResult?.isCurrentVersion}`
                 );
               }
             }

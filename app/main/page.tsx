@@ -24,7 +24,7 @@ export default function Main() {
             <Spacer y={8} />
             <div className="flex">
 
-            <   Card isFooterBlurred className="col-span-8 sm:col-span-2">
+            <Card isFooterBlurred className="col-span-8 sm:col-span-2">
                     <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                     <p className="text-tiny text-white/60 uppercase font-bold">[placeholder percentage] off [sale type]</p>
                     <h4 className="text-white font-medium text-large"> [sale type] sale</h4>

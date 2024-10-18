@@ -11,6 +11,7 @@ export default function Main() {
     return (
         <section className="">
 
+        {/* Section A */}
         <Spacer y={8} />
         <div className="flex w-full h-full">
 
@@ -42,7 +43,9 @@ export default function Main() {
 
         <Spacer x={4} />
         </div>
-        
+
+
+        {/* Section B */}
         <div className="flex w-full h-full">
 
         <Spacer y={8} />
@@ -75,6 +78,7 @@ export default function Main() {
         <Spacer x={4} />
         </div>
 
+        {/* Section C */}
         <div className="flex w-full h-full">
 
         <Spacer y={8} />
