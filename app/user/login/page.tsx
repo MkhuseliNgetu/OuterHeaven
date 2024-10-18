@@ -2,7 +2,7 @@ import { Input } from "@nextui-org/input";
 import {Image} from "@nextui-org/image";
 import { Link } from "@nextui-org/link";
 import { Button } from "@nextui-org/button";
-import { CircleArrowRight, ShoppingBag } from "lucide-react";
+import { CircleArrowRight } from "lucide-react";
 
 //Main Function
 export default function Main_Login(){
