@@ -3,11 +3,15 @@ import {Image} from "@nextui-org/image";
 import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 
+import MainBlobs from '../azure.Blobs'
+
 export default function Home() {
 
   const Images: string[] = ["LND-0.jpg","LND-1.jpg","LND-2.jpg"]
   const ImagePaths: string[] = ["/Images/"]
-  
+
+  MainBlobs();
+
   return (
 
     <section className="flex flex-col items-left justify-left">

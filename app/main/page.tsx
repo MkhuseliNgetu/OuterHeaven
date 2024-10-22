@@ -2,11 +2,13 @@ import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import {Image} from "@nextui-org/image";
 import {Spacer} from "@nextui-org/spacer";
 
+
 export default function Main() {
 
   const Images: string[] = ["MN-0.jpg","MN-1.jpg","MN-2.jpg",
                             "MN-3.jpg","MN-4.jpg","MN-5.jpg"]
   const ImagePaths: string[] = ["/Images/"]
+
 
     return (
         <section className="">

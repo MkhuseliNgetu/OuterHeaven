@@ -90,8 +90,10 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
         </NavbarItem>
-     
+
+        {/* Search Bar */}
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+        {/* Sponser Button
         <NavbarItem className="hidden md:flex">
           <Button
             isExternal
@@ -103,7 +105,7 @@ export const Navbar = () => {
           >
             Sponsor
           </Button>
-        </NavbarItem>
+        </NavbarItem> */}
 
 
         <NavbarItem>

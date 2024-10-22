@@ -3,11 +3,12 @@ import {Image} from "@nextui-org/image";
 import { Link } from "@nextui-org/link";
 import { Button } from "@nextui-org/button";
 import { CircleArrowRight } from "lucide-react";
+import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/popover";
 
 //Main Function
 export default function Main_Login(){
 
-const Images: string[] = ["LOD-1.jpg","LOD-2.jpg","LOD-3.jpg"]
+const Images: string[] = ["LOD-0.jpg","LOD-1.jpg","LOD-2.jpg"]
 const ImagePaths: string[] = ["/Images/"]
 
     return(
@@ -34,9 +35,20 @@ const ImagePaths: string[] = ["/Images/"]
             <br />
             <Input isRequired type="Password" label="Password" placeholder="Password" radius="lg" size="md"/>
             <br/>
-            <Button href={'/main'} as={Link} size="lg" color="primary" radius="full" endContent={ <CircleArrowRight />}>
-                Login
-            </Button>
+
+            <Popover placement="right">
+                <PopoverTrigger>
+                    <Button size="lg" color="primary" radius="full" endContent={ <CircleArrowRight />}>
+                     Login
+                    </Button>
+                </PopoverTrigger>
+                <PopoverContent>
+                    <div className="px-1 py-2">
+                    <div className="text-small font-bold">Under Construction </div>
+                    </div>
+                </PopoverContent>
+            </Popover>
+
             </form>
         </div>
         </section>

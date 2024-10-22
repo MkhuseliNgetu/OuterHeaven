@@ -3,6 +3,13 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "OuterHeaven",
   description: "V has come to.",
+  navMainMenuItems: [
+    { label: "Woman",
+      href: "/woman",},
+    { label: "Men",
+      href: "/Men",},
+  ],
+
   navItems: [
     {
       label: "Accessories",
@@ -55,6 +62,10 @@ export const siteConfig = {
     {
       label: "Sign In",
       href: "/user/login",
+    },
+    {
+      label: "Register",
+      href: "/user/register",
     }
   ],
   navMain:[

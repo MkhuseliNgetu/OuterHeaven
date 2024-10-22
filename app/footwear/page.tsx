@@ -4,10 +4,9 @@ import {Spacer} from "@nextui-org/spacer";
 
 export default function Main() {
 
-    const Images: string[] = ["MN-0.jpg","MN-1.jpg","MN-2.jpg",
-        "MN-3.jpg","MN-4.jpg","MN-5.jpg"]
-    const ImagePaths: string[] = ["/Images/"]
-
+    const Images: string[] = ["FTW-0.jpg","FTW-1.jpg","FTW-2.jpg",
+        "FTW-3.jpg","FTW-4.jpg","FTW-5.jpg"]
+    const ImagePaths: string[] = ["/Images/Footwear/"]
 
 
     return (
@@ -20,7 +19,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Boots</p>
         </CardHeader>
-            <Image removeWrapper src={ImagePaths[0]+Images[1]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+            <Image removeWrapper src={ImagePaths[0]+Images[0]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
 
         <Spacer x={4} />
@@ -30,7 +29,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Sneakers</p>
         </CardHeader>
-            <Image removeWrapper src={ImagePaths[0]+Images[1]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+            <Image removeWrapper src={ImagePaths[0]+Images[1]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
 
         <Spacer x={4} />
@@ -39,7 +38,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Heels</p>
         </CardHeader>
-        <Image removeWrapper src={ImagePaths[0]+Images[2]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+        <Image removeWrapper src={ImagePaths[0]+Images[2]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
 
         <Spacer x={4} />
@@ -53,7 +52,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Sandels</p>
         </CardHeader>
-        <Image removeWrapper src={ImagePaths[0]+Images[3]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+        <Image removeWrapper src={ImagePaths[0]+Images[3]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
 
         <Spacer x={4} />
@@ -62,7 +61,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Loafers</p>
         </CardHeader>
-        <Image removeWrapper src={ImagePaths[0]+Images[4]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+        <Image removeWrapper src={ImagePaths[0]+Images[4]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
 
         <Spacer x={4} />
@@ -71,7 +70,7 @@ export default function Main() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Espadrille</p>
         </CardHeader>
-        <Image removeWrapper src={ImagePaths[0]+Images[4]} className="z-0 w-[25rem] h-[25rem] object-cover"/>
+        <Image removeWrapper src={ImagePaths[0]+Images[5]} className="z-0 w-[25rem] h-[30rem] object-cover"/>
         </Card>
         
         <Spacer x={4} />
